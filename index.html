@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo.png" class="logo" />
+        </div>
+        <ul class="menu">
+            <li data-key="home" class="menu_link">Home</li>
+            <li data-key="projects" class="menu_link">Projects</li>
+            <li data-key="about me" class="menu_link">About Me</li>
+            <li data-key="contact" class="menu_link">Contact</li>
+        </ul>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home">
+        <img src="./images/landing.gif" alt="landing" class="home_image" />
+        <div class="home_content">
+            <h1>Dawid Bajek</h1>
+            <span>Frontend Developer</span>
+            <img src="./images/github-logo.png" alt="github-logo" class="github-logo">
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <main class="projects">
+        <div class="section-title">
+            <p class="section-title-main">Projects</p>
+            <span>Sekcja w przebudowie...</span>
+        </div>
+    </main>
+
+    <!-- TECHNOLOGIES -->
+    <section class="technologies">
+        <div class="section-title">
+            <div class="section-title-main">Technologies</div>
+                <div class="technology-item">
+                    <p class="technology-name">CSS3</p>
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+                <div class="technology-item">
+                    <p class="technology-name">HTML5</p>
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+        
+                <div class="technology-item">
+                    <p class="technology-name">JAVA SCRIPT</p>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                
+                <div class="technology-item">
+                    <p class="technology-name">SCSS</p>
+                    <i class="fa-brands fa-sass"></i>
+                </div>
+                
+        </div>
+       
+    </section>
+
+    <!-- ABOUT -->
+    <article class="about">
+        <div class="section-title">
+            <p class="section-title-main">Who</p>
+            <span class="section-title-sub">Am I?</span>
+        </div>
+        <p class="about-description">
+            Hi I'm David and I'm a graduate of the school on the profile of information technology. I am interested in sports, and mainly in soccer.  I plan to go to college to study computer science. I am learning front-end mainly from courses and my next step will be to master one of the frameworks. 
+        </p>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
